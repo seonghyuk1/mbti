@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
-// 웹은 기본적으로 Origin이 다르면 막음.
+// 웹은 기본적으로 Origin이 다르면 막음
 let cors = require('cors');
 app.use(cors());
 
